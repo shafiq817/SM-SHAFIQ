@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Shafiq — Full Stack Developer portfolio with a passion for speed, precision, and high-performance digital experiences.">
+    <meta name="keywords" content="Shafiq, Full Stack Developer, Web Developer, Portfolio, Car Design, Automotive">
+    <meta name="author" content="Shafiq">
+    <title>SHAFIQ | Full Stack Developer — Built for Speed</title>
+
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏎️</text></svg>">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+
+<body>
+
+    <!-- Background Effects -->
+    <div class="bg-effects">
+        <div class="racing-stripe"></div>
+        <div class="racing-stripe"></div>
+        <div class="racing-stripe"></div>
+        <div class="racing-stripe"></div>
+        <div class="glow-orb"></div>
+        <div class="glow-orb"></div>
+    </div>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="#" class="nav-logo">SHAFI<span class="red">Q</span></a>
+            <div class="nav-links" id="navLinks">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Education</a>
+                <a href="Shafiq_Shaik_Mohammed_CV.html" target="_blank">CV / Resume</a>
+                <a href="#testimonials">Reviews</a>
+                <a href="#contact" class="nav-cta">Hire Me</a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero section" id="home">
+        <div class="hero-bg-image">
+            <img src="images/hero-car.png" alt="Sleek sports car under dramatic lighting">
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="dot"></span>
+                    Available for Projects
+                </div>
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-name">
+                    <span class="gradient-text">SHAFIQ</span>
+                </h1>
+                <div class="hero-title-wrapper">
+                    <h2 class="hero-title">
+                        <span class="typed-text" id="typedText"></span>
+                    </h2>
+                </div>
+                <p class="hero-description">
+                    Engineering high-performance digital experiences with the precision of a finely-tuned engine. Clean
+                    code, blazing speed, and pixel-perfect design — every project is built to dominate.
+                </p>
+                <div class="hero-ctas">
+                    <a href="#projects" class="btn-primary">
+                        View My Work
+                        <i data-lucide="arrow-right" style="width:18px;height:18px;"></i>
+                    </a>
+                    <a href="#contact" class="btn-outline">
+                        Let's Connect
+                        <i data-lucide="zap" style="width:18px;height:18px;"></i>
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <span class="hero-stat-number" data-count="5">3+</span>
+                        <span class="hero-stat-label">Years Exp.</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="hero-stat-number" data-count="50">15+</span>
+                        <span class="hero-stat-label">Projects</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="hero-stat-number" data-count="30">10+</span>
+                        <span class="hero-stat-label">Happy Clients</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Speedometer Widget -->
+            <div class="hero-speedometer">
+                <div class="speedometer-ring">
+                    <div class="speedometer-inner">
+                        <span class="speed-value" id="speedValue">80</span>
+                        <span class="speed-unit">MPH</span>
+                        <span class="speed-label">Performance</span>
+                    </div>
+                </div>
+                <div class="floating-spec">
+                    <div class="spec-icon">⚡</div>
+                    <span>React</span>
+                </div>
+                <div class="floating-spec">
+                    <div class="spec-icon">🔧</div>
+                    <span>Node.js</span>
+                </div>
+                <div class="floating-spec">
+                    <div class="spec-icon">🚀</div>
+                    <span>Next.js</span>
+                </div>
+                <div class="floating-spec">
+                    <div class="spec-icon">🎯</div>
+                    <span>TypeScript</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="about-visual reveal">
+                <div class="about-image">
+                    <img src="images/about-car.png" alt="Luxury car interior with ambient lighting">
+                </div>
+                <div class="about-stats-bar">
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="5">3</span>
+                        <span class="stat-label">Years Exp.</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="50">15</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="30">10</span>
+                        <span class="stat-label">Clients</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-content reveal">
+                <span class="section-label">About Me</span>
+                <h2 class="section-title">Built for <span class="highlight">Speed</span> &<br>Precision</h2>
+                <p class="about-text">
+                    I'm Shafiq — a Full Stack Developer who approaches every project like a high-performance machine.
+                    With 3+ years of experience, I've mastered the art of building web applications that are fast,
+                    reliable, and engineered to perfection.
+                </p>
+                <p class="about-text">
+                    Like a finely-tuned sports car, my code is optimized for peak performance. From sleek frontends to
+                    powerful backends, I deliver solutions that accelerate businesses forward.
+                </p>
+                <div class="about-info-grid">
+                    <div class="info-card">
+                        <div class="info-card-icon">
+                            <i data-lucide="map-pin" style="width:18px;height:18px;"></i>
+                        </div>
+                        <div class="info-card-details">
+                            <span>Location</span>
+                            <p>India</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-card-icon">
+                            <i data-lucide="briefcase" style="width:18px;height:18px;"></i>
+                        </div>
+                        <div class="info-card-details">
+                            <span>Experience</span>
+                            <p>3+ Years</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-card-icon">
+                            <i data-lucide="graduation-cap" style="width:18px;height:18px;"></i>
+                        </div>
+                        <div class="info-card-details">
+                            <span>Education</span>
+                            <p>BCA HONS</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-card-icon">
+                            <i data-lucide="globe" style="width:18px;height:18px;"></i>
+                        </div>
+                        <div class="info-card-details">
+                            <span>Freelance</span>
+                            <p>Available</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="Shafiq_Shaik_Mohammed_CV.html" class="btn-primary" target="_blank">
+                    View & Download CV
+                    <i data-lucide="external-link" style="width:18px;height:18px;"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS SECTION ===== -->
+    <section class="skills section" id="skills">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">My Arsenal</span>
+                <h2 class="section-title">Under The <span class="highlight">Hood</span></h2>
+                <p class="section-subtitle">The technologies and tools that power my high-performance builds.</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card reveal reveal-delay-1">
+                    <div class="skill-card-header">
+                        <div class="skill-card-icon">
+                            <i data-lucide="layout" style="width:22px;height:22px;"></i>
+                        </div>
+                        <h3 class="skill-card-title">Frontend Engine</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Vue.js</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Tailwind CSS</span>
+                        <span class="skill-tag">Framer Motion</span>
+                    </div>
+                </div>
+                <div class="skill-card reveal reveal-delay-2">
+                    <div class="skill-card-header">
+                        <div class="skill-card-icon">
+                            <i data-lucide="server" style="width:22px;height:22px;"></i>
+                        </div>
+                        <h3 class="skill-card-title">Backend Power</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Flask</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express</span>
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">REST APIs</span>
+                    </div>
+                </div>
+                <div class="skill-card reveal reveal-delay-3">
+                    <div class="skill-card-header">
+                        <div class="skill-card-icon">
+                            <i data-lucide="database" style="width:22px;height:22px;"></i>
+                        </div>
+                        <h3 class="skill-card-title">Data Fuel</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">Redis</span>
+                        <span class="skill-tag">Firebase</span>
+                    </div>
+                </div>
+                <div class="skill-card reveal reveal-delay-4">
+                    <div class="skill-card-header">
+                        <div class="skill-card-icon">
+                            <i data-lucide="cloud" style="width:22px;height:22px;"></i>
+                        </div>
+                        <h3 class="skill-card-title">Core Operations</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Windows Admin</span>
+                        <span class="skill-tag">Ticketing Systems</span>
+                        <span class="skill-tag">Troubleshooting</span>
+                        <span class="skill-tag">Desktop Management</span>
+                        <span class="skill-tag">Problem Solving</span>
+                        <span class="skill-tag">Data Structures</span>
+                    </div>
+                </div>
+                <div class="skill-card reveal reveal-delay-1">
+                    <div class="skill-card-header">
+                        <div class="skill-card-icon">
+                            <i data-lucide="palette" style="width:22px;height:22px;"></i>
+                        </div>
+                        <h3 class="skill-card-title">Data & Analytics</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Power BI</span>
+                        <span class="skill-tag">Microsoft Excel</span>
+                        <span class="skill-tag">Matplotlib</span>
+                        <span class="skill-tag">Seaborn</span>
+                        <span class="skill-tag">Data Visualization</span>
+                    </div>
+                </div>
+                <div class="skill-card reveal reveal-delay-2">
+                    <div class="skill-card-header">
+                        <div class="skill-card-icon">
+                            <i data-lucide="wrench" style="width:22px;height:22px;"></i>
+                        </div>
+                        <h3 class="skill-card-title">Tools & Gear</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Postman</span>
+                        <span class="skill-tag">Jira</span>
+                        <span class="skill-tag">Notion</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS SECTION ===== -->
+    <section class="projects section" id="projects">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">My Garage</span>
+                <h2 class="section-title">Featured <span class="highlight">Builds</span></h2>
+                <p class="section-subtitle">Projects engineered for maximum impact and performance.</p>
+            </div>
+            <div class="projects-filter reveal">
+                <button class="filter-btn active" data-filter="all">All Builds</button>
+                <button class="filter-btn" data-filter="web">Web Apps</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card reveal reveal-delay-1" data-category="web">
+                    <div class="project-image">
+                        <img src="images/project-1.png" alt="Red sports car on mountain road">
+                        <div class="project-overlay">
+                            <a href="https://health-care-webiste-shafiq.onrender.com/" target="_blank"
+                                aria-label="Live Preview"><i data-lucide="external-link"
+                                    style="width:20px;height:20px;"></i></a>
+                            <a href="https://github.com/shafiq817/Health-care-webiste-shafiq" target="_blank"
+                                aria-label="Source Code"><i data-lucide="github"
+                                    style="width:20px;height:20px;"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Web Application</span>
+                        <h3 class="project-title">Health Care Management</h3>
+                        <p class="project-description">A secure Health Care Management System for patient medical
+                            records with an interactive disease visualization dashboard.</p>
+                        <div class="project-tech">
+                            <span>Flask</span>
+                            <span>HTML/CSS</span>
+                            <span>Python</span>
+                            <span>Matplotlib</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card reveal reveal-delay-2" data-category="web">
+                    <div class="project-image">
+                        <img src="images/project-2.png" alt="Futuristic electric concept car">
+                        <div class="project-overlay">
+                            <a href="#" aria-label="Live Preview"><i data-lucide="external-link"
+                                    style="width:20px;height:20px;"></i></a>
+                            <a href="#" aria-label="Source Code"><i data-lucide="github"
+                                    style="width:20px;height:20px;"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Data Analytics</span>
+                        <h3 class="project-title">YouTube Video Analytics</h3>
+                        <p class="project-description">Data analysis and visualization of video views, likes, comments,
+                            and engagement metrics to derive actionable content insights.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Matplotlib</span>
+                            <span>Seaborn</span>
+                            <span>Data Cleaning</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card reveal reveal-delay-3" data-category="mobile">
+                    <div class="project-image">
+                        <img src="images/project-3.png" alt="Classic muscle car in warehouse">
+                        <div class="project-overlay">
+                            <a href="#" aria-label="Live Preview"><i data-lucide="external-link"
+                                    style="width:20px;height:20px;"></i></a>
+                            <a href="#" aria-label="Source Code"><i data-lucide="github"
+                                    style="width:20px;height:20px;"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Mobile App</span>
+                        <h3 class="project-title">GearShift Messenger</h3>
+                        <p class="project-description">Cross-platform messaging app with end-to-end encryption, media
+                            sharing, and real-time presence indicators.</p>
+                        <div class="project-tech">
+                            <span>React Native</span>
+                            <span>Firebase</span>
+                            <span>Socket.io</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="project-card reveal reveal-delay-1" data-category="design">
+                    <div class="project-image">
+                        <div
+                            style="width:100%;height:100%;background:linear-gradient(135deg, #e11d48 0%, #f97316 100%);display:flex;align-items:center;justify-content:center;">
+                            <span style="font-size:4rem;opacity:0.4;">🎨</span>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" aria-label="Live Preview"><i data-lucide="external-link"
+                                    style="width:20px;height:20px;"></i></a>
+                            <a href="#" aria-label="Source Code"><i data-lucide="github"
+                                    style="width:20px;height:20px;"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Design System</span>
+                        <h3 class="project-title">Ignition UI Kit</h3>
+                        <p class="project-description">A comprehensive automotive-inspired design system with 200+
+                            components, dark mode, and accessibility-first.</p>
+                        <div class="project-tech">
+                            <span>Figma</span>
+                            <span>React</span>
+                            <span>Storybook</span>
+                            <span>CSS</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 5 -->
+                <div class="project-card reveal reveal-delay-2" data-category="web">
+                    <div class="project-image">
+                        <div
+                            style="width:100%;height:100%;background:linear-gradient(135deg, #0ea5e9 0%, #e11d48 100%);display:flex;align-items:center;justify-content:center;">
+                            <span style="font-size:4rem;opacity:0.4;">🤖</span>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" aria-label="Live Preview"><i data-lucide="external-link"
+                                    style="width:20px;height:20px;"></i></a>
+                            <a href="#" aria-label="Source Code"><i data-lucide="github"
+                                    style="width:20px;height:20px;"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Web Application</span>
+                        <h3 class="project-title">NitroAI Studio</h3>
+                        <p class="project-description">AI-powered content generation platform with templates, batch
+                            processing, and team workspace features.</p>
+                        <div class="project-tech">
+                            <span>Next.js</span>
+                            <span>OpenAI</span>
+                            <span>Prisma</span>
+                            <span>Redis</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 6 -->
+                <div class="project-card reveal reveal-delay-3" data-category="mobile">
+                    <div class="project-image">
+                        <div
+                            style="width:100%;height:100%;background:linear-gradient(135deg, #f97316 0%, #eab308 100%);display:flex;align-items:center;justify-content:center;">
+                            <span style="font-size:4rem;opacity:0.4;">🏁</span>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" aria-label="Live Preview"><i data-lucide="external-link"
+                                    style="width:20px;height:20px;"></i></a>
+                            <a href="#" aria-label="Source Code"><i data-lucide="github"
+                                    style="width:20px;height:20px;"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Mobile App</span>
+                        <h3 class="project-title">RaceTrack Fitness</h3>
+                        <p class="project-description">Fitness tracking app with workout plans, nutrition logging,
+                            progress analytics, and social race challenges.</p>
+                        <div class="project-tech">
+                            <span>Flutter</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== EDUCATION SECTION ===== -->
+    <section class="experience section" id="experience">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">Academic Track</span>
+                <h2 class="section-title">Educational <span class="highlight">Qualifications</span></h2>
+                <p class="section-subtitle">My academic journey and foundations in computer science.</p>
+            </div>
+            <div class="experience-timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2026</span>
+                        <h3 class="timeline-role">Bachelor of Computer Applications (BCA)</h3>
+                        <p class="timeline-company">Aditya Degree College, Kakinada</p>
+                        <p class="timeline-description">CGPA: 9.70. Solidified foundation in programming, data
+                            structures, and web technologies.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2022</span>
+                        <h3 class="timeline-role">Intermediate (BIPC)</h3>
+                        <p class="timeline-company">Aditya Junior College, Kakinada</p>
+                        <p class="timeline-description">Board of Intermediate Education. Percentage: 89%.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2020</span>
+                        <h3 class="timeline-role">10th (SSC)</h3>
+                        <p class="timeline-company">Narayana Concept School, Kakinada</p>
+                        <p class="timeline-description">Board of Secondary Education, AP. CGPA: 9.8.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS SECTION ===== -->
+    <section class="testimonials section" id="testimonials">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">Pit Stop Reviews</span>
+                <h2 class="section-title">What <span class="highlight">Clients</span> Say</h2>
+                <p class="section-subtitle">Feedback from the people I've had the pleasure of working with.</p>
+            </div>
+            <div class="testimonials-wrapper reveal">
+                <div class="testimonials-track" id="testimonialsTrack">
+                    <div class="testimonial-card">
+                        <div class="testimonial-quote">❝</div>
+                        <p class="testimonial-text">"Shafiq delivered our e-commerce platform with the precision of a
+                            Formula 1 pit crew. Fast, flawless, and ahead of schedule. The code quality and
+                            documentation were outstanding."</p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">SC</div>
+                            <div class="testimonial-author-info">
+                                <h4>Sarah Chen</h4>
+                                <p>CEO, ShopVista</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-quote">❝</div>
+                        <p class="testimonial-text">"Working with Shafiq was like upgrading from a sedan to a supercar.
+                            He transformed our entire platform from scratch and the performance improvements were
+                            incredible."</p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">MR</div>
+                            <div class="testimonial-author-info">
+                                <h4>Marcus Reynolds</h4>
+                                <p>CTO, DataFlow AI</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-quote">❝</div>
+                        <p class="testimonial-text">"Shafiq's expertise in both frontend and backend is like having a
+                            driver who can also engineer the car. He proactively suggested improvements that
+                            turbocharged our UX."</p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">EK</div>
+                            <div class="testimonial-author-info">
+                                <h4>Emily Kovacs</h4>
+                                <p>Product Manager, NexGen Labs</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-controls">
+                    <button class="testimonial-btn" id="testimonialPrev" aria-label="Previous">
+                        <i data-lucide="chevron-left" style="width:20px;height:20px;"></i>
+                    </button>
+                    <div class="testimonial-dots" id="testimonialDots">
+                        <span class="dot active" data-index="0"></span>
+                        <span class="dot" data-index="1"></span>
+                        <span class="dot" data-index="2"></span>
+                    </div>
+                    <button class="testimonial-btn" id="testimonialNext" aria-label="Next">
+                        <i data-lucide="chevron-right" style="width:20px;height:20px;"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="contact-info reveal">
+                <span class="section-label">Get In Touch</span>
+                <h2 class="section-title">Let's <span class="highlight">Race</span><br>Together</h2>
+                <p class="contact-description">
+                    Have a project that needs speed, precision, and top-tier engineering? I'm ready to take the wheel.
+                    Let's build something extraordinary.
+                </p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-item-icon">
+                            <i data-lucide="mail" style="width:20px;height:20px;"></i>
+                        </div>
+                        <div class="contact-item-details">
+                            <h4>Email</h4>
+                            <p>shafiqsm819@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-item-icon">
+                            <i data-lucide="phone" style="width:20px;height:20px;"></i>
+                        </div>
+                        <div class="contact-item-details">
+                            <h4>Phone</h4>
+                            <p>+91 8639773391</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-item-icon">
+                            <i data-lucide="map-pin" style="width:20px;height:20px;"></i>
+                        </div>
+                        <div class="contact-item-details">
+                            <h4>Location</h4>
+                            <p>H.NO: 5-5-24, Surya Rao Peta, Kakinada, AP</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-socials">
+                    <a href="https://github.com/shafiq817" target="_blank" aria-label="GitHub"><i data-lucide="github"
+                            style="width:20px;height:20px;"></i></a>
+                    <a href="https://www.linkedin.com/in/shafiq-shaik-mohammed-183071341/" target="_blank"
+                        aria-label="LinkedIn"><i data-lucide="linkedin" style="width:20px;height:20px;"></i></a>
+                    <a href="#" aria-label="Twitter"><i data-lucide="twitter" style="width:20px;height:20px;"></i></a>
+                    <a href="#" aria-label="Instagram"><i data-lucide="instagram"
+                            style="width:20px;height:20px;"></i></a>
+                </div>
+            </div>
+            <div class="contact-form-wrapper reveal">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">SM SHAFIQ</label>
+                            <input type="text" id="name" name="Shafiq" placeholder="Sm Shafiq" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" placeholder="shafiqsm819@gmail.com" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Project Inquiry">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Tell me about your project..."
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="form-submit">
+                        Send Message
+                        <i data-lucide="send" style="width:18px;height:18px;"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <span class="footer-logo">SHAFIQ<span class="red">Q</span></span>
+            <p class="footer-text">© 2026 Shafiq. Engineered with passion.</p>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to top -->
+    <button class="scroll-top" id="scrollTopBtn" aria-label="Scroll to top">
+        <i data-lucide="arrow-up" style="width:20px;height:20px;"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
